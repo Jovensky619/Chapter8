@@ -5,7 +5,7 @@ File Name: apply
 */
 
 /* CSS Reset */
-body, main, footer, table {
+body, main, footer, table{
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,7 +13,8 @@ body, main, footer, table {
 
 /* Style rule for body */
 body {
-	background-color: #f4f9e1;
+	background-color: #ffe5dc;
+    
 }
 
 table{
@@ -22,35 +23,38 @@ table{
 	margin-bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
-	border: 3px solid #71881b ;
+	border: 3px solid , #fd4d0c;
+   
 }
 
 table, tr, th, td{
 	border-collapse: collapse;
 	padding: 2%;
-}
-caption{
-	font-size: 2em;
-	padding: 2%;
-	margin-top: 2%;
+    box-shadow:#792101;
+    
 }
 
 th,td{
-	border:1px solid #7188bb ;
+	border:1px solid #a22c02 ;
+    box-shadow:#792101;
 }
 
 td{
 	text-align: center;
+    font-family: sans-serif;
+    
 }
 
 tr:nth-child(odd) {
-	background-color: #d3e788;
+	background-color: #fe9772;
+    
 }
 
 /* Style rule for the container */
 #container {
 	width: 80%;
 	margin: 0 auto;
+   
 }
 
 /* Style for the footer element */
