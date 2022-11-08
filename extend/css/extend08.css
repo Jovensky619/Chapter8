@@ -39,9 +39,11 @@ th,td{
     box-shadow:#792101;
 }
 
-td{
+th{
 	text-align: center;
     font-family: sans-serif;
+	background-color: #792101;
+	color:#ffe5dc;
     
 }
 
